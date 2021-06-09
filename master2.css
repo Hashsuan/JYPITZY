@@ -1,0 +1,83 @@
+*{margin: 0; font-family: 'Noto Sans KR';list-style: none; text-decoration: none;}
+.header{position: fixed}
+.nav{height: 150px;
+  ;border-bottom: 0px; display: flex;align-items: center; position: absolute;index:1}
+  .nav-item-on{color: #ff717b;font-family: 'Noto Sans KR',sans-serif;font-weight: 800; }
+  nav > div> li > a{color: #000000; font-family: 'Noto Sans KR',sans-serif;font-weight: 550;}
+  nav > div> li > a:hover{color: #ff717b;  transition: 0.3s;}
+
+.nav-item{margin:70px;font-size: 25px;}
+.nav-logo{margin-left: 830px}
+
+.section{position: relative; width: 100%; height: 99vh;
+display: flex; align-items: center; justify-content: center;
+overflow: hidden;z-index:-5;}
+
+.back{padding: 0;position: flex;position: absolute;
+left: -150px;padding-top: 210px; z-index:1; opacity: 20%;z-index:-4;}
+
+.main-text{position: absolute; : inline-block; left:1350px; top:540px;}
+
+.section{position: relative; width: 100%; height: 99vh;
+display: flex; align-items: center; justify-content: center;
+overflow: hidden;z-index:-5;}
+
+/*.a{display:block;}*/
+
+/*프로필 hover 효과시에 삐져나오는 문제*/
+
+.p1{position: absolute; : inline-block; left:495px;top: 330px;}
+
+.p1-overay{position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6); color: #ffffff; display: flex; flex-direction: column;
+align-items: center;justify-content: center;
+opacity: 0; transition: opacity 0.25s;}
+.p1-overay:hover{opacity: 1;}
+.p1-overay-text{font-family: 'Noto Sans KR',sans-serif; font-weight: bold;font-size: 3em;}
+.p1-overay-date{font-family: 'Noto Sans KR',sans-serif;font-size: 1em;}
+
+
+
+.p2{position: absolute; : inline-block; left:820px;top: 330px;}
+
+.p2-overay{position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6); color: #ffffff; display: flex; flex-direction: column;
+align-items: center;justify-content: center;
+opacity: 0; transition: opacity 0.25s;}
+.p2-overay:hover{opacity: 1;}
+.p2-overay-text{font-family: 'Noto Sans KR',sans-serif; font-weight: bold;font-size: 3em;}
+.p2-overay-date{font-family: 'Noto Sans KR',sans-serif;font-size: 1em;}
+
+
+.p3{position: absolute; : inline-block; left:820px;top: 635px;}
+
+
+.p3-overay{position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6); color: #ffffff; display: flex; flex-direction: column;
+align-items: center;justify-content: center;
+opacity: 0; transition: opacity 0.25s;}
+.p3-overay:hover{opacity: 1;}
+.p3-overay-text{font-family: 'Noto Sans KR',sans-serif; font-weight: bold;font-size: 3em;}
+.p3-overay-date{font-family: 'Noto Sans KR',sans-serif;font-size: 1em;}
+
+
+.p4{position: absolute; : inline-block; left:1125px;top: 330px;}
+
+.p4-overay{position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6); color: #ffffff; display: flex; flex-direction: column;
+align-items: center;justify-content: center;
+opacity: 0; transition: opacity 0.25s;}
+.p4-overay:hover{opacity: 1;}
+.p4-overay-text{font-family: 'Noto Sans KR',sans-serif; font-weight: bold;font-size: 2em;}
+.p4-overay-date{font-family: 'Noto Sans KR',sans-serif;font-size: 1em;}
+
+
+.p5{position: absolute; : inline-block; left:1125px;top: 635px;}
+
+.p5-overay{position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6); color: #ffffff; display: flex; flex-direction: column;
+align-items: center;justify-content: center;
+opacity: 0; transition: opacity 0.25s;}
+.p5-overay:hover{opacity: 1;}
+.p5-overay-text{font-family: 'Noto Sans KR',sans-serif; font-weight: bold;font-size: 3em;}
+.p5-overay-date{font-family: 'Noto Sans KR',sans-serif;font-size: 1em;}
